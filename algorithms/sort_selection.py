@@ -21,16 +21,16 @@ def step():
   if fase=="buscar":
      if j<n:
         if items[j]<items[ min_idx]:
-          min_idx=j
-          j=j+1
-          return {"a": min_idx, "b": j, "swap": False, "done": False}
+            min_idx=j
+        j=j+1
+        return {"a": min_idx, "b": j, "swap": False, "done": False}
     # - Fase "buscar": comparar j con min_idx, actualizar min_idx, avanzar j.
      #   Devolver {"a": min_idx, "b": j_actual, "swap": False, "done": False}.
   fase="swap"
   if fase=="swap":
-     if min_idx != i:
+     if items[i] > items[min_idx]:
         items[i],items[min_idx]=items[min_idx],items[i]
-        return{"a": min_idx, "b": j, "swap": True, "done": False}
+        return{"a": i, "b": min_idx, "swap": True, "done": False}
   i=i+1
   j=i+1
   min_idx=i
