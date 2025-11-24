@@ -1,8 +1,8 @@
 # Trabajo final 
 ## estudiante: 
-#### Dubreucq, Agustin 
-#### Escalada, Romina 
-#### Taboada, Santiago 
+**Dubreucq, Agustin**
+**Escalada, Romina** 
+`rgb(9,120,60)`Taboada, Santiago
 
 ## Algoritmos agregados:
 ### sort_burblee:
