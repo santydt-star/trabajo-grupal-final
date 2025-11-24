@@ -6,9 +6,9 @@
 
 ## Algoritmos agregados:
 ### sort_burblee:
-estrucuta que ordena las listas de dos en dos.
+El método burbuja (Bubble Sort) consiste en comparar a los elementos adyacentes de la lista e intercambiarlos si se encuentran en una posición incorrecta. De este modo, los “ítems” de mayor valor se desplazan hacia el final, generando un orden de menor a mayor.
 ### sort_selection:
-estrucuta que ordena las listas fijando el minimo y posteriormente remplazandolos.
+El método de Selección (Selection Sort) recorre la lista para tomar el valor más pequeño de la parte no ordenada, cuando lo encuentra lo intercambia con el elemento que se encuentra al inicio de la sección, organizando el algoritmo de menor a mayor repitiendo este proceso.
 ### sort_inyeccion: 
 estructura que ordena a apartir de un valor inicial hacia la derecha o izquierda. 
 ## Dificultades encontrada: 
